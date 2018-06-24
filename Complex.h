@@ -1,10 +1,3 @@
-/*
-Namen: Edwin Lammers, Rico Lin, Remco Reiring
-Klas: EMT1B groep 3
-Opdracht: Complex Numbers, header file.
-Samenwerking:
-Inspiratie: zie bronvermelding main.
-*/
 #ifndef _Complex
 #define _Complex
 
@@ -19,12 +12,6 @@ public:
 	double i;
 	Complex(); //default constructor
 	Complex(double &r, double &i); //Overload constructor
-	/*
-	Complex(double r, double i) {
-		r = real;
-		i = imag;
-		return r, i;
-	}*/
 
 	//friend ostream& operator<<(ostream& os, const Complex& dt); //Friend function that let private vars used those values at other places.
 
@@ -42,12 +29,3 @@ public:
 	~Complex(); //Destructor
 #endif;
 };
-
-
-
-
-
-//Methode
-//void objects(Complex &complex);
-
-//***Complex operator+(Complex &c); //Zegt dat ie bestaat. Initialized. -> Complex Complex::operator+() {<CODE>}
