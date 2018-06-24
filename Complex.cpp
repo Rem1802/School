@@ -1,10 +1,3 @@
-/*
-Namen: Edwin Lammers, Rico Lin, Remco Reiring
-Klas: EMT1B groep 3
-Opdracht: Complex Numbers, Class .cpp file.
-Samenwerking:
-Inspiratie: zie bronvermelding main.
-*/
 #include "std_lib_facilities.h"
 #include "Complex.h"
 
@@ -49,16 +42,3 @@ double getImag(double imag) {
 }
 
 //Complex::~Complex();
-/*
-void setReal(double r) {
-	real = r;
-}
-
-void setImag(double i) {
-	imag = i;
-}*/
-/*
-ostream& operator<<(ostream& os, const Complex& dt) {
-	os << dt.real << '+' << dt.real << "j\n"; //Function that creates the ... output?
-	return os;
-}*/
